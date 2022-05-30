@@ -19,7 +19,7 @@ slideBackBtn.onclick = function () {
   if (activeIndex == 0) {
     activeIndex = images.length - 1;
   } else {
-    activeIndex--;
+    activeIndex -= 2;
   }
   images[activeIndex].classList.add("slide-active");
 };
